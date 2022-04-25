@@ -1,0 +1,25 @@
+.inline-edit  {
+    width: 90px;
+    border:none;
+  }
+  
+  .inline-edit-red {
+    width: 90px;
+    border:none;
+    color: red;
+  }
+
+  .inline-edit-edit {
+    background: white;
+    color: #0e59a4;
+    border-color: #0e59a4;
+    border-radius: 3px;
+  }
+  
+  .inline-edit-save {
+    background: #0e59a4;
+    color: white;
+    border-color: #0e59a4;
+    border-radius: 3px;
+  
+  }

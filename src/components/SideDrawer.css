@@ -1,0 +1,74 @@
+
+.drawer-title-bar {
+    position: absolute;
+}
+
+.drawer-button-container {
+  height: 50px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(90deg);
+  position:relative;
+  top: 11rem;
+  right: 6rem;
+  cursor: pointer;
+  background: rgb(224, 150, 13);
+  color: white;
+}
+
+.drawer-button-container:hover {
+  background-color: white;
+  color: rgb(236, 175, 63);
+}
+
+.drawer-container {
+  height: 60vh;
+  width: 500px;
+  background-color: #faf9f9;
+  transition: all 0.3s ease-in-out;
+  transform: translate(-500px);
+  position:fixed;
+  margin-top: 54px;
+  box-shadow: 5px 0px 18px rgb(0, 0, 0, 0);
+  
+}
+
+.drawer-container-close-button {
+    padding: 3px;
+    font-size: 2rem;
+    border: none;
+    background-color: #faf9f9;
+    cursor: pointer;
+}
+
+.drawer-contents-header{
+  display: flex;
+  justify-content: space-between;
+  color: #0e59a4;
+}
+.drawer-contents-header h2{
+ text-align: center;
+ margin: 2rem 0 0 6rem;
+}
+
+.drawer-contents-header button{
+  color: #0e59a4;
+}
+
+.drawer-container--isOpen {
+  transform: translate(0);
+  box-shadow: unset;
+  box-shadow: 5px 8px 18px rgb(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+.summary-cards-top {
+  display: flex;
+}
+.summary-card {
+  margin:20px;
+}
